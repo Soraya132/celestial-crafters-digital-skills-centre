@@ -1,10 +1,12 @@
-import React from 'react'
+import CommonHeader from "@/components/CommonHeader";
+import React from "react";
 
 const blockchain = () => {
   return (
-    <div>blockchain
-</div>
-  )
-}
+    <div>
+      <CommonHeader hero="/blockchain.jpg" title="Blockchain" />
+    </div>
+  );
+};
 
-export default blockchain
+export default blockchain;

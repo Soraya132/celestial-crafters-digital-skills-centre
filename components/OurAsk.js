@@ -14,11 +14,11 @@ const OurAsk = () => {
       >
        <div className="relative  flex justify-center items-center">
           <Image
-            src={"/children1.jpg"}
+            src={"/ask.jpg"}
             alt="planet-09"
             width={1000}
             height={1000}
-            className="w-full lg:h-[500px] h-auto min-h-[210px] object-cover rounded-md"
+            className="w-full lg:h-[500px] h-auto min-h-[210px] rounded-md object-fill"
           />
         </div>
         <div className="flex justify-end flex-col gradient-05 sm:p-8 p-4  relative">
@@ -29,8 +29,8 @@ const OurAsk = () => {
 
           <p className="py-6 font-normal  text-[20px]">
             Celestial Crafters Digital skills centre has a vision of becoming
-            the leading global institution that offers free and quality digital
-            skills to the vulnerable women in the society.
+            the leading global institution <span className="font-bold text-black">that offers free and quality digital
+            skills to the vulnerable women </span>in the society.
           </p>
           <ul className="flex flex-col ">
           {[

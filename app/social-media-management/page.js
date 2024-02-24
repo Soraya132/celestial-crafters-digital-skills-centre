@@ -1,8 +1,10 @@
-import React from 'react'
+import CommonHeader from "@/components/CommonHeader"
 
 const socialMedia = () => {
   return (
-    <div>socialMedia</div>
+    <div>
+    <CommonHeader hero="/social.jpg" title="Blockchain" />
+  </div>
   )
 }
 

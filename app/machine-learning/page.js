@@ -1,9 +1,10 @@
-import React from 'react'
+import CommonHeader from "@/components/CommonHeader"
 
 const machineLearning = () => {
   return (
-    <div>machineLearning
-</div>
+    <div>
+    <CommonHeader hero="/machine.jpg" title="Blockchain" />
+  </div>
   )
 }
 

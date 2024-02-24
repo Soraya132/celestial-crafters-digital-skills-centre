@@ -1,8 +1,10 @@
-import React from 'react'
+import CommonHeader from "@/components/CommonHeader"
 
 const cyberSecurity = () => {
   return (
-    <div>cyberSecurity</div>
+    <div>
+    <CommonHeader hero="/cyberhero.jpg" title="Blockchain" />
+  </div>
   )
 }
 

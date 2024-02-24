@@ -18,7 +18,7 @@ const Solution = () => {
         <div className="gradient-04" />
       </div>
       <div className="flex gap-5 flex-wrap justify-center items-center">
-        {["/solution.jpg","/solution1.jpg","/girllearning.jpg"].map((item)=>{
+        {["/solution.jpg","/solution1.jpg","/oursolution.jpg"].map((item)=>{
             return(
               <div>
               <Image src={item} width={300} height={300} alt="image"

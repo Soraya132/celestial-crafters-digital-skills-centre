@@ -19,7 +19,7 @@ const GetStarted = () => (
         className="relative flex-[0.5] flex justify-center items-center"
       >
         <Image
-          src={"/children1.jpg"}
+          src={"/market1.jpg"}
           alt="planet-09"
           width={1000}
           height={1000}

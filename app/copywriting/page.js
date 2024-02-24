@@ -1,8 +1,10 @@
-import React from 'react'
+import CommonHeader from "@/components/CommonHeader"
 
 const Copyright = () => {
   return (
-    <div>Copyright</div>
+    <div>
+      <CommonHeader hero="/copywriting.jpg" title="Blockchain" />
+    </div>
   )
 }
 

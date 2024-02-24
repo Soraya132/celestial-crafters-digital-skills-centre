@@ -1,9 +1,10 @@
-import React from 'react'
+import CommonHeader from "@/components/CommonHeader"
 
 const networking = () => {
   return (
-    <div>networking
-</div>
+    <div>
+    <CommonHeader hero="/network.jpg" title="Blockchain" />
+  </div>
   )
 }
 
