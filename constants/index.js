@@ -1,108 +1,27 @@
-import {
- 
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  
-} from "../public";
-
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
-
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
-
-// export const stats = [
-//   {
-//     id: "stats-1",
-//     title: "User Active",
-//     value: "3800+",
-//   },
-//   {
-//     id: "stats-2",
-//     title: "Trusted by Company",
-//     value: "230+",
-//   },
-//   {
-//     id: "stats-3",
-//     title: "Transaction",
-//     value: "$230M+",
-//   },
-// ];
-
+import {  FaLinkedin,FaTiktok  } from "react-icons/fa";
 export const footerLinks = [
   {
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "contact us",
+        link: "/contact",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "about us",
+        link: "/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "web development",
+        link: "/software-development",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "graphic design",
+        link: "/graphic-design",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "data analysis",
+        link: "/data-analysis",
       },
     ],
   },
@@ -111,11 +30,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "/contact",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/contact",
       },
     ],
   },
@@ -124,63 +43,16 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-    imageUrl:"/instagram.svg"
+    icon: "tiktok",
+    link: "https://www.tiktok.com/@celestial_crafters?_t=8jTAoiI3ZEE&_r=1",
+    imageUrl:<FaTiktok/>
   },
 
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-    imageUrl:"/linkedin.svg"
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
-
-export const exploreWorlds = [
-  {
-    id: "world-1",
-    imgUrl: "/girl4.jpg",
-    title: "The Hogwarts",
-  },
-  {
-    id: "world-2",
-    imgUrl: "/girl4.jpg",
-    title: "The Upside Down",
-  },
-  {
-    id: "world-3",
-    imgUrl: "/girllearning.jpg",
-    title: "Kadirojo Permai",
-  },
-  {
-    id: "world-4",
-    imgUrl: "/girls.jpg",
-    title: "Paradise Island",
-  },
-  {
-    id: "world-5",
-    imgUrl: "/girllearning2.jpg",
-    title: "Hawkins Labs",
+    icon: "linkedin",
+    link: "https://www.linkedin.com/company/celestialcrafters/",
+    imageUrl:<FaLinkedin/>
   },
 ];
 
@@ -193,20 +65,10 @@ export const startingFeatures = [
   ` This dedication ensures that individuals in marginalized communities have equitable access to skill development ,reinforcing our mission to bridge the digital divide and empower those constrained by financial challenges .`,
 ];
 
-export const newFeatures = [
-  {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
-  },
-  {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
-    subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
-  },
-];
+
+
+
+// digital skills center data
 export const insights = [
   {
     title: "Graphic Design",
@@ -277,25 +139,5 @@ export const insights = [
     imgUrl: "/cyber.jpg",
     subtitle:
       "Protect digital assets and mitigate cyber threats with our Cyber Security workshop. Learn about threat detection, risk assessment, and ethical hacking.",
-  },
-];
-
-export const socials = [
-  {
-    name: "twitter",
-    url: "/twitter.svg",
-
-  },
-  {
-    name: "linkedin",
-    url: "/linkedin.svg",
-  },
-  {
-    name: "instagram",
-    url: "/instagram.svg",
-  },
-  {
-    name: "facebook",
-    url: "/facebook.svg",
   },
 ];

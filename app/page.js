@@ -1,31 +1,30 @@
-import Challengs from "@/components/Challengs";
-import Feedback from "@/components/Feedback";
-import Contact from "@/components/Contact";
-import Hero from "@/components/Hero";
-import Insights from "@/components/Insight";
-import OurAsk from "@/components/OurAsk";
-import Slideshow from "@/components/Slideshow";
-import Solution from "@/components/Solution";
-import About from "@/sections/About";
+import Challengs from "@/components/sections/Challengs";
+import ImpactinSlum from "@/components/sections/ImpactinSlum";
+import Contact from "@/components/sections/Contact";
+import Hero from "@/components/sections/Hero";
+import DigitalSkillsCenter from "@/components/sections/DigitalSkillsCenter";
+import OurAsk from "@/components/sections/OurAsk";
+import OurImpact from "@/components/sections/OurImpact";
+import Solution from "@/components/sections/Solution";
+import About from "@/components/sections/About";
 
-import GetStarted from "@/sections/GetStarted";
+import MarketResearch from "@/components/sections/MarketResearch";
+import BecomeDonor from "@/components/sections/BecomeDonor";
 
 export default function Home() {
   return (
-   <main  className="overflow-hidden">
-
-   <Hero/>
-   <About/>
-   <Challengs/>
-   <Solution/>
-   <GetStarted/>
-   <Feedback/>
-   <OurAsk/>
-   <Insights/>
-   <Slideshow/>
-   <Contact/>
-     
-   
-   </main>
+    <main className="overflow-hidden">
+      <Hero />
+      <About />
+      <Challengs />
+      <Solution />
+      <MarketResearch />
+      <BecomeDonor />
+      <ImpactinSlum />
+      <OurAsk />
+      <DigitalSkillsCenter />
+      <OurImpact />
+      <Contact />
+    </main>
   );
 }
