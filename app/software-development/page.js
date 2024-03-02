@@ -9,27 +9,27 @@ const softwareDevelopment = () => {
     {
         "name": "HTML",
         "description": "The standard markup language for creating web pages and web applications.",
-        "src": "/challenge.jpg"
+        "src": "/html.jpg"
     },
     {
         "name": "CSS",
         "description": "The style sheet language used for describing the presentation of a document written in HTML.",
-        "src": "/challenge.jpg"
+        "src": "/web10.jpg"
     },
     {
         "name": "React",
         "description": "A JavaScript library for building user interfaces, often used for building single-page applications.",
-        "src": "/challenge.jpg"
+        "src": "/react.jpg"
     },
     {
         "name": "JavaScript",
         "description": "A programming language commonly used to create interactive effects within web browsers.",
-        "src": "/challenge.jpg"
+        "src": "/js.jpg"
     },
     {
         "name": "Python",
         "description": "A high-level programming language known for its readability and simplicity, commonly used for web development, data analysis, and artificial intelligence applications.",
-        "src": "/challenge.jpg"
+        "src": "/python.jpg"
     }
 ]
 

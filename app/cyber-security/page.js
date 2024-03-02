@@ -7,10 +7,10 @@ const cyberSecurity = () => {
     "Our workshop provides participants with essential skills in cybersecurity and information assurance. Participants learn to identify security threats, protect systems and networks, and respond to cyber incidents. Through hands-on labs and simulations, students gain practical experience in securing and defending computer systems.";
   const skills =[
     {name: "Network Security", description: "Protect computer networks from unauthorized access and cyberattacks.", src: "/cyber.jpg"},
-    {name: "Cyber Threat Intelligence", description: "Gather and analyze data to identify potential cyber threats and vulnerabilities.", src: "/challenge.jpg"},
-    {name: "Ethical Hacking", description: "Simulate cyberattacks to identify weaknesses in systems and networks.", src: "/challenge.jpg"},
-    {name: "Security Operations", description: "Monitor and manage security systems to detect and respond to security incidents.", src: "/challenge.jpg"},
-    {name: "Incident Response", description: "Develop and implement strategies to address and mitigate security breaches and incidents.", src: "/challenge.jpg"}
+    {name: "Cyber Threat Intelligence", description: "Gather and analyze data to identify potential cyber threats and vulnerabilities.", src: "/cyber10.jpg"},
+    {name: "Ethical Hacking", description: "Simulate cyberattacks to identify weaknesses in systems and networks.", src: "/cyber11.jpg"},
+    {name: "Security Operations", description: "Monitor and manage security systems to detect and respond to security incidents.", src: "/cyber12.jpg"},
+    {name: "Incident Response", description: "Develop and implement strategies to address and mitigate security breaches and incidents.", src: "/cyber13.jpg"}
 ]
 
   const equipment =

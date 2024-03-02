@@ -10,7 +10,7 @@ const Copyright = () => {
     {name: "Content Creation", description: "Generate valuable and relevant content for various platforms.", src: "/copy1.jpg"},
     {name: "SEO Writing", description: "Optimize content to improve search engine rankings.", src: "/copy2.jpg"},
     {name: "Marketing Copy", description: "Create compelling copy to promote products or services.", src: "/copy4.jpg"},
-    {name: "Editing", description: "Refine and polish written content to enhance clarity and effectiveness.", src: "/copywriting.jpg"}
+    {name: "Editing", description: "Refine and polish written content to enhance clarity and effectiveness.", src: "/copy10.jpg"}
 ]
   const equipment =
     "Through the generosity of our donors, our center provides access to computers, writing software, and online resources for content and copywriting training. Our onsite workshops offer a supportive environment for women in Nairobi slums to hone their writing skills. Participants receive personalized feedback and guidance from experienced copywriters.";

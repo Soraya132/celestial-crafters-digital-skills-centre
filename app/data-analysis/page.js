@@ -7,31 +7,32 @@ const dataAnalysis = () => {
     "Our workshop teaches essential skills in data collection, cleaning, analysis, and visualization. Participants learn to work with popular data analysis tools and programming languages such as Python, R, and SQL. Through hands-on projects and case studies, students gain practical experience in analyzing real-world datasets and deriving actionable insights.";
   const skills = [
     {
-        "name": "Network Security",
-        "description": "Protect computer networks from unauthorized access and cyberattacks.",
-        "src": "/cyber.jpg"
+        "name": "Data Analysis",
+        "description": "Data analysis involves examining, cleansing, transforming, and modeling data to discover useful information, conclusions, and support decision-making.",
+        "src": "/cyber10.jpg"
     },
     {
-        "name": "Cyber Threat Intelligence",
-        "description": "Gather and analyze data to identify potential cyber threats and vulnerabilities.",
-        "src": "/challenge.jpg"
+        "name": "Statistical Analysis",
+        "description": "Statistical analysis is the process of collecting, cleaning, and analyzing numerical data to uncover patterns, trends, and relationships.",
+        "src": "/network6.jpg"
     },
     {
-        "name": "Ethical Hacking",
-        "description": "Simulate cyberattacks to identify weaknesses in systems and networks.",
-        "src": "/challenge.jpg"
+        "name": "Predictive Modeling",
+        "description": "Predictive modeling is the process of using statistical techniques to predict future outcomes based on historical data.",
+        "src": "/cyber11.jpg"
     },
     {
-        "name": "Security Operations",
-        "description": "Monitor and manage security systems to detect and respond to security incidents.",
-        "src": "/challenge.jpg"
+        "name": "Machine Learning",
+        "description": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.",
+        "src": "/cyber13.jpg"
     },
     {
-        "name": "Incident Response",
-        "description": "Develop and implement strategies to address and mitigate security breaches and incidents.",
-        "src": "/challenge.jpg"
+        "name": "Data Visualization",
+        "description": "Data visualization is the graphical representation of data and information to aid understanding and communication.",
+        "src": "/cyber12.jpg"
     }
 ]
+
 
   const equipment =
     "With the support of our donors, our center provides access to computers, statistical software, and online resources for data analysis training. Our onsite workshops offer hands-on learning experiences tailored to the needs of women in Nairobi slums. Participants receive guidance from experienced instructors and mentorship from industry professionals.";
