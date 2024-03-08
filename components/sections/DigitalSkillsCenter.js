@@ -16,7 +16,7 @@ const DigitalSkillsCenter = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TitleText title={<>Digital Skills Centre</>} textStyles="text-center" />
+      <TitleText title={<>Digital Skills Center</>} textStyles="text-center" />
       <p className="py-5 font-normal  text-[20px] text-center ">
         Welcome to Celestial Crafters Digital Skills Centre, where empowerment
         meets opportunity. Situated in the heart of Nairobi's slums, our center

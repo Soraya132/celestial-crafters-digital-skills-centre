@@ -8,7 +8,7 @@ const Solution = () => {
       <div className="w-full md:w-[80%] flex flex-col gap pb-10 items-center justify-center">
         <TitleText title={<>Our Solution </>} textStyles="text-center" />
         <p className="font-normal  text-[20px]  text-center">
-          Celestial Crafters Digital Skill Centre{" "}
+          Celestial Crafters Digital Skill Center{" "}
           <span className="font-[800] text-lightRed">
             {" "}
             will offer free digital skills{" "}

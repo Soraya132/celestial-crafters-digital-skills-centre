@@ -128,7 +128,7 @@ export const insights = [
   },
   {
     title: "AI/Machine Learning",
-    link: "/ai-machine-learning",
+    link: "/machine-learning",
     imgUrl: "/machinlearning.jpg",
     subtitle:
       "Embark on a journey into artificial intelligence and machine learning. Our AI/Machine Learning workshop covers algorithms, programming, and real-world applications.",

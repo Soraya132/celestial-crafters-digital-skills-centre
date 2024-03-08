@@ -8,7 +8,7 @@ const SkillsPageTemplate = ({ overview, skills, equipment, title }) => {
       <div className="bg-secondary-color text-white py-20 px-5 md:px-10 ">
         <div className="text-center">
           <h2 className="text-5xl font-[500] mb-8">
-            Celestial Crafters Digital Skills Centre
+            Celestial Crafters Digital Skills Center
           </h2>
           <h2 className="text-3xl font-bold mb-6">{title} Workshop</h2>
           <p className="text-lg pb-5 w-full md:w-[60%] mx-auto">
