@@ -1,4 +1,6 @@
+"use client";
 import CTA from "../Common/CTA";
+import ReactPlayer from "react-player";
 
 const BecomeDonor = () => {
   return (
@@ -11,6 +13,16 @@ const BecomeDonor = () => {
             Support Our Cause and Make a Difference Today
           </p>
         </div>
+        <div className="mt-10 w-screen ">
+            <ReactPlayer
+              url="/donor.mp4"
+              playing={true}
+              loop={true}
+              muted
+              className="object-cover"
+              width={"100%"}
+            />
+          </div>
       </div>
 
       {/* Main Content Section */}
@@ -49,15 +61,6 @@ const BecomeDonor = () => {
               <CTA />
             </div>
           </section>
-
-          {/* Additional Image */}
-          <div className="mt-10">
-            <img
-              src={"/ask.jpg"}
-              alt="Poor people"
-              className="w-full rounded-lg shadow-md"
-            />
-          </div>
         </div>
       </div>
 
